@@ -4,5 +4,5 @@ import { LatestPost } from "@/app/_components/post";
 import { api, HydrateClient } from "@/trpc/server";
 
 export default async function Home() {
-  return <h1>Hello World!</h1>
+  return <h1>Hello, Varin Mehta this side</h1>
 }
