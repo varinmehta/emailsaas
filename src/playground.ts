@@ -9,4 +9,4 @@ await db.user.create({
     }
 })
 
-console.log('done')
+console.log('comp')
