@@ -9,4 +9,4 @@ await db.user.create({
     }
 })
 
-console.log('comp')
+console.log('added to db')
