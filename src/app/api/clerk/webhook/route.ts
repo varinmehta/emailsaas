@@ -4,6 +4,6 @@ export const POST = async (req: Request) => {
     const emailAddress = data.email_addresses[0].email_address
     const firstName = data.first_name
     const lastName = data.last_name
-    
+    const imageUrl = data.imageUrl
     return new Response('Webhook received', { status: 200 })
 }
