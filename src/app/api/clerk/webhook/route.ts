@@ -3,5 +3,7 @@ export const POST = async (req: Request) => {
     console.log('clerk webhook received', data)
     const emailAddress = data.email_addresses[0].email_address
     const firstName = data.first_name
+    const lastName = data.last_name
+    
     return new Response('Webhook received', { status: 200 })
 }
