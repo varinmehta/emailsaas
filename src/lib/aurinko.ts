@@ -7,6 +7,7 @@ export const getAurinkoAuthUrl = async (serviceType: 'Google' | 'Office365') => 
         clientId: process.env.AURINKO_CLIENT_ID as string,
         serviceType,
         scopes: 'Mail.Read Mail.ReadWrite Mail.Send Mail.Drafts Mail.All',
-        responseType: 'code'
+        responseType: 'code',
+        returnUrl: '${}'
     })
 }
