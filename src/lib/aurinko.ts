@@ -4,5 +4,6 @@ export const getAurinkoAuthUrl = async (serviceType: 'Google' | 'Office365') => 
     const { userId } = await auth()
     if (!userId) throw new Error("Unauthorized")
     const params = new URLSearchParams({
+        
     })
 }
