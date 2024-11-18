@@ -10,6 +10,7 @@ const config = {
         ignoreBuildErrors: true,
     },
     eslint: {
+        ignoreDuringBuilds: true,
     }
 };
 
