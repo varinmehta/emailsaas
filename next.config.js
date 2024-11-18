@@ -9,7 +9,8 @@ const config = {
     typescript: {
         ignoreBuildErrors: true,
     },
-    
+    eslint: {
+    }
 };
 
 export default config;
