@@ -11,5 +11,5 @@ export const getAurinkoAuthUrl = async (serviceType: 'Google' | 'Office365') => 
         returnUrl: '${process.env.NEXT_PUBLIC_URL}/api/aurinko/callback'
     })
 
-    return 'https://api.aurinko.io/v1/auth/authorize?${params.to'
+    return 'https://api.aurinko.io/v1/auth/authorize?${params.toString()}&'
 }
